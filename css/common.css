@@ -3,7 +3,7 @@ html {
   width: 1600px;
   margin-right: auto;
   margin-left: auto;
-  font-family: "Open Sans", sans-serif;
+  font-family: Open Sans, sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
@@ -45,10 +45,44 @@ ul {
 
 /* header */
 header {
+  display: flex;
   width: 1920px;
   margin-right: auto;
   margin-left: auto;
+  align-items: center;
+
   background-color: var(--first-background-color);
+}
+
+.header-logo {
+  margin: 11px 0px 11px 40px;
+}
+
+.nav-list a {
+  color: var(--second-text-color);
+  text-decoration: none;
+}
+
+.nav-list {
+  display: flex;
+  margin-left: 555px;
+
+  font-family: Open Sans, sans-serif;
+  font-style: normal;
+}
+
+.nav-list li:nth-child(2) {
+  margin-left: 25px;
+  margin-right: 27px;
+}
+
+.nav-list li:nth-child(n + 3):not(:last-child) {
+  margin-right: 28px;
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+  color: var(--accent-color);
 }
 
 /* footer */
