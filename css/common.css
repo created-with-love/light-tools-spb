@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+  width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.39;
+  color: var(--primaty-text-color);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --primaty-text-color: #343434;
+  --second-text-color: #ffffff;
+  --accent-color: #005bc1;
+  --first-background-color: rgba(0, 91, 193, 0.6);
+}
+
+/* font-family: "Open Sans", sans-serif;
+font-family: "Oswald", sans-serif; */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  list-style: none;
+}
+
+/* header */
+header {
+  width: 1920px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: var(--first-background-color);
+}
+
+/* footer */
+.footer {
+  width: 1110px;
+  margin-right: auto;
+  margin-left: auto;
+}
